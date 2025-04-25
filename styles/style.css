@@ -94,6 +94,7 @@ ol {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .search-form {
@@ -207,7 +208,6 @@ ol {
 .content__details {
   grid-area: content__details;
   align-self: end;
-  overflow: hidden;
 }
 
 .title {
@@ -224,6 +224,7 @@ ol {
 
 .content__list-container {
   position: relative;
+  width: 399px;
   height: 298px;
   padding-right: 3px;
   overflow: auto;
